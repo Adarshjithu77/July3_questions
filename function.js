@@ -13,3 +13,10 @@ function typeContact(a,b){
     return typeof a + typeof b;
 }
 console.log(typeContact("hello",5))
+
+//qstn 3
+
+function isNaNValue(value){
+    return Number.isNaN(value)
+}
+console.log(isNaNValue('abhi'/2))
