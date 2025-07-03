@@ -27,3 +27,10 @@ function boolToString(value){
     return String(value)
 }
 console.log(boolToString(true))
+
+//qstn5
+
+function sumNumbers(a,b){
+    return Number(a) + Number(b)
+}
+console.log(sumNumbers("20",10))
