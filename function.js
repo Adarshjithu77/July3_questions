@@ -20,3 +20,10 @@ function isNaNValue(value){
     return Number.isNaN(value)
 }
 console.log(isNaNValue('abhi'/2))
+
+//qstn4
+
+function boolToString(value){
+    return String(value)
+}
+console.log(boolToString(true))
